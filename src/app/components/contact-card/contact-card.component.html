@@ -1,0 +1,13 @@
+<div class="card m-2 p-2">
+  <h5>{{ contact.fName }} {{ contact.lName }}</h5>
+  <p>Phone: {{ contact.phoneNumber }}</p>
+  <p>Email: {{ contact.email }}</p>
+  <button type="submit" class="btn btn-edit" (click)="edit.emit()">Edit</button>
+  <button
+    type="submit"
+    class="btn btn-delete"
+    (click)="delete.emit(contact.id)"
+  >
+    Delete
+  </button>
+</div>

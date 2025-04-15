@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    text-decoration: none;
+    color: #e588ff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: #e588ff;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  

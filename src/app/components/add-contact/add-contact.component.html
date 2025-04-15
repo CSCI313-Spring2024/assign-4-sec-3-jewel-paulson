@@ -1,0 +1,29 @@
+<div>
+  <h2>Add New Contact</h2>
+  <form (ngSubmit)="onSave()">
+    <label for="fName">First Name:</label>
+    <input id="fName" [(ngModel)]="contact.fName" name="fName" required />
+
+    <label for="lName">Last Name:</label>
+    <input id="lName" [(ngModel)]="contact.lName" name="lName" required />
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input
+      id="phoneNumber"
+      [(ngModel)]="contact.phoneNumber"
+      name="phoneNumber"
+      required
+    />
+
+    <label for="email">Email:</label>
+    <input
+      id="email"
+      [(ngModel)]="contact.email"
+      name="email"
+      type="email"
+      required
+    />
+
+    <button type="submit">Save Contact</button>
+  </form>
+</div>

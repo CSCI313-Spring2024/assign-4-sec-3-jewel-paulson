@@ -1,0 +1,22 @@
+<div *ngIf="contact">
+  <h2>Edit Contact</h2>
+  <form>
+    <label for="fName">First Name:</label>
+    <input id="fName" [(ngModel)]="contact.fName" name="fName" />
+
+    <label for="lName">Last Name:</label>
+    <input id="lName" [(ngModel)]="contact.lName" name="lName" />
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input
+      id="phoneNumber"
+      [(ngModel)]="contact.phoneNumber"
+      name="phoneNumber"
+    />
+
+    <label for="email">Email:</label>
+    <input id="email" [(ngModel)]="contact.email" name="email" />
+
+    <button type="submit">Save</button>
+  </form>
+</div>

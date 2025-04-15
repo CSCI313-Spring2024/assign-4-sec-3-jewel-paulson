@@ -1,0 +1,51 @@
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin: 0.25rem 0;
+  }
+  
+  .card .btn-group {
+    margin-top: 1rem;
+  }
+  
+  .card button {
+    margin-right: 0.5rem;
+  }
+
+  .btn-edit {
+    padding: 0.5rem 1rem;
+    background-color: #ff6ed6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-edit:hover {
+    background-color: #ff6ed6b6;
+  }
+
+  .btn-delete {
+    padding: 0.5rem 1rem;
+    background-color: #ffb26e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-delete:hover {
+    background-color:#ffc796;
+  }
